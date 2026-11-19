@@ -1,0 +1,6 @@
+{
+  "name": "GENTLEMAN'S CLUB",
+  "description": "Преміальний вебсайт сучасного чоловічого барбершопу GENTLEMAN’S CLUB з каталогом послуг, командою майстрів, галереєю робіт та інтерактивною системою онлайн-запису.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

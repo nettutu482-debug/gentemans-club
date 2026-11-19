@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Manrope", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --color-obsidian: #0A0A0B;
+  --color-graphite: #141417;
+  --color-graphite-elevated: #1C1C21;
+  --color-milk: #F5F2EB;
+  --color-ash: #9C968C;
+  --color-brass: #C8A45D;
+  --color-brass-hover: #D8B878;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    background-color: #0A0A0B;
+    color: #F5F2EB;
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-display);
+    text-wrap: balance;
+  }
+
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
